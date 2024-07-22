@@ -8,11 +8,11 @@
  * Follow-up: what if you can't use division?
  */
 
-const input = [1, 2, 3, 4, 5]
+const input: number[] = [1, 2, 3, 4, 5]
 
-const output = input.map(element => {
+const output: number[] = input.map(element => {
   let result = 1
-  const temp = input.filter(x => x !== element)
+  const temp: number[] = input.filter(x => x !== element)
   for (let index of temp){
     result *= index
   }
