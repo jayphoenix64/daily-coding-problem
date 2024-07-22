@@ -17,6 +17,10 @@
  * assert deserialize(serialize(node)).left.left.val == 'left.left'
  */
 function serialize(tree) {
+    return JSON.stringify(tree);
+}
+function deserialize(tree) {
+    return JSON.parse(tree);
 }
 const tree = {
     val: 'root',
@@ -30,4 +34,10 @@ const tree = {
         val: 'right',
     },
 };
+console.log('tree:', deserialize(serialize(tree)).left.left.val === 'left.left' ? 'successful' : 'not yet successful');
+/**
+ * Well, utilizing TypeScript and its interface sturcture makes this exercise
+ * pretty easy. The JSON function are just there to actually have a serialize
+ * and deserilize function.
+ */ 
 //# sourceMappingURL=day0003.js.map

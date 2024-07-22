@@ -24,7 +24,11 @@ interface TreeNode {
 }
 
 function serialize(tree: TreeNode) {
+  return JSON.stringify(tree);
+}
 
+function deserialize(tree: string) {
+  return JSON.parse(tree);
 }
 
 const tree: TreeNode = {
@@ -40,4 +44,10 @@ const tree: TreeNode = {
   },
 };
 
+console.log('tree:', deserialize(serialize(tree)).left.left.val === 'left.left' ? 'successful' : 'not yet successful');
 
+/**
+ * Well, utilizing TypeScript and its interface sturcture makes this exercise
+ * pretty easy. The JSON function are just there to actually have a serialize 
+ * and deserilize function.
+ */
