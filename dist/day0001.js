@@ -22,4 +22,8 @@ list.map((i) => list.map((j) => {
 }));
 console.log(list);
 console.log(found);
+/**
+ * I had to think this one through first in a sequetial way in order
+ * to get the functional solution. But it works either way.
+ */ 
 //# sourceMappingURL=day0001.js.map
