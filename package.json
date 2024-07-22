@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "description": "solutions for daily coding problem",
   "main": "app.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "@types/node": "^20.14.11",
+    "typescript": "^5.5.3"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "echo \"Compiling files...\" && cd solutions && npx tsc"
   },
   "author": "jayphoenix64",
   "license": "MIT"
