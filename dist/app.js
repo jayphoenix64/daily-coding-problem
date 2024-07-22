@@ -29,7 +29,7 @@ const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout,
 });
-rl.question('Please enter a number: ', (input) => {
+rl.question('Please enter the day number: ', (input) => {
     const number = parseInt(input.trim(), 10);
     if (!isNaN(number)) {
         const fileName = `day${String(number).padStart(4, '0')}.js`;

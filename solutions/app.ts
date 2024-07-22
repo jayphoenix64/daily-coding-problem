@@ -6,7 +6,7 @@ const rl = readline.createInterface({
   output: process.stdout,
 });
 
-rl.question('Please enter a number: ', (input) => {
+rl.question('Please enter the day number: ', (input) => {
   const number = parseInt(input.trim(), 10);
 
   if (!isNaN(number)) {
