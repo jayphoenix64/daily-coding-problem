@@ -1,0 +1,12 @@
+{
+  "name": "daily-coding-problem",
+  "version": "1.0.0",
+  "description": "solutions for daily coding problem",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jayphoenix64",
+  "license": "MIT"
+}
