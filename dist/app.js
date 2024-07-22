@@ -27,7 +27,7 @@ const readline = __importStar(require("readline"));
 const child_process_1 = require("child_process");
 const rl = readline.createInterface({
     input: process.stdin,
-    output: process.stdout
+    output: process.stdout,
 });
 rl.question('Please enter a number: ', (input) => {
     const number = parseInt(input.trim(), 10);
@@ -42,7 +42,7 @@ rl.question('Please enter a number: ', (input) => {
                 console.error(`Error in script ${fileName}: ${stderr}`);
                 return;
             }
-            console.log(`Output of ${fileName}: ${stdout}`);
+            console.log(`Output of ${fileName}: \n\n${stdout}`);
         });
     }
     else {

@@ -16,4 +16,18 @@
  * node = Node('root', Node('left', Node('left.left')), Node('right'))
  * assert deserialize(serialize(node)).left.left.val == 'left.left'
  */
+function serialize(tree) {
+}
+const tree = {
+    val: 'root',
+    left: {
+        val: 'left',
+        left: {
+            val: 'left.left',
+        },
+    },
+    right: {
+        val: 'right',
+    },
+};
 //# sourceMappingURL=day0003.js.map

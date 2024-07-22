@@ -1,1 +1,1 @@
-{"version":3,"file":"day0003.js","sourceRoot":"","sources":["../solutions/day0003.ts"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;;GAiBG"}
+{"version":3,"file":"day0003.js","sourceRoot":"","sources":["../solutions/day0003.ts"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;;GAiBG;AAQH,SAAS,SAAS,CAAC,IAAc;AAEjC,CAAC;AAED,MAAM,IAAI,GAAa;IACrB,GAAG,EAAE,MAAM;IACX,IAAI,EAAE;QACJ,GAAG,EAAE,MAAM;QACX,IAAI,EAAE;YACJ,GAAG,EAAE,WAAW;SACjB;KACF;IACD,KAAK,EAAE;QACL,GAAG,EAAE,OAAO;KACb;CACF,CAAC"}
